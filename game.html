@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KILL BIG P</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="game">
+        <div id="hud">
+            <h1>🐷 KILL BIG P</h1>
+            <p>Pigs Killed: <span id="killCount">0</span> / 500</p>
+        </div>
+
+        <div id="bossUI">
+            <h2>👑 BIG P</h2>
+
+            <div id="bossBar">
+                <div id="bossHealth"></div>
+            </div>
+
+            <p>
+                <span id="bossHealthText">1,000,000</span>
+                / 1,000,000 HP
+            </p>
+        </div>
+
+        <div id="message"></div>
+
+        <div id="controls">
+            W A S D — Drive<br>
+            Mouse — Aim<br>
+            Click — Fire
+        </div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+
+</body>
+</html>
